@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>About</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="1.jpg" alt="1" width="30"> Shri SaiBaba Sansthan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sansthan Litreature
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Stotra.html">Sai Mahinma Stotra</a></li>
+                            <li><a class="dropdown-item" href="Aarti.html">Aarti</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Yachana.html">Sai Yachana Dashak</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shirdi Tourism
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="reach.html">How to reach</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="visit.html">Place to visit</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#LoginModal">Login</button>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#SignUpModal">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Login Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="LoginModalLabel">Login To iCoder</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignUpModalLabel">Get an iCoder Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label"> Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>ॐसाई राम ||</strong>
+        सबका मालिक एक
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div class="container my-4">
+        <div class="row mb-6">
+            <div class="col-md-12">
+              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">About Us</strong>
+                  <h3 class="mb-0"></h3>
+                  <div class="mb-1 text-muted">Jan 9</div>
+                  <p class="card-text mb-auto">
+                    
+
+Shri Saibaba Sansthan Trust, Shirdi, is the Governing and Administrative body of the Shri Saibaba's Samadhi Temple and all others temples on this premise, and devoted towards development of Shirdi village.
+
+Shri Saibaba Sansthan Trust, Shirdi, is the authorized body to control and manage the day-to-day activities at the Shri Saibaba Samadhi Temple. It also provides various facilities like Accommodation, Meals (Free), refreshments, and lot more. The Sansthan Trust also runs School and Colleges(Junior and Senior),  English Medium School from class Jr KG to Std X, Industrial Training Institute (ITI), Drinking Water Supply, Hospitals (Shri Saibaba Superspecility Hospital and Shri Sainath Hospital on Charity basis).
+
+Shirdi, a small rural town in the Rahata Taluka of Ahmednagar district in the Maharashtra state of India. Shirdi is a secular place where all religions are treated as one & a belief in the power of Faith & Patience is foremost. A place where all heads bow down in prayer, where faith prevails, where hopes are built, where patience pays, and where infinite joy and everlasting contentment abound. Such is the glory of the place which belongs to the Holy Saint, a true repository of wisdom, who pleased all with pious equality and gifted mankind ornaments of humanity and peace by saying "SABKA MALIK EK". The footprints of Saibaba have made this town a holy place. Millions of devotees continuously flock here from all over India and abroad. Situated on the Ahmednagar-Manmad highway.
+
+Shirdi can be reached from the new railway station at Sainagar; Manmad-Junction, Kopargaon and Nagarsul are other nearby railway stations on the Central Railway. Shirdi is where the holy soul of Shri Satchidanand Sadguru Sainath Maharaj - affectionately known as “Saibaba” rests today. Shri Saibaba appeared at Shirdi in his human incarnation. For 60 years Baba served mankind and preached his precious teachings to the world from here, and then went for contemplation (Samadhi) in Shirdi itself. The footprints and the deeds of Saibaba have turned this small town into a unique holy place for people of all castes, creeds and religions. Saibaba delivered the universal slogan of "Shraddha - Saburi", i.e. Faith and Patience for everyone, from here itself. The place of his 'Samadhi' has become a center-point for innumerable devotees, infusing them with the joy of life. While visiting Shirdi, one experiences complete peace of mind, a strong self-confidence, and a great sense of purpose. During his contemplation (Samadhi) services, Shri Saibaba had consoled his devotees with these words - "After I take Samadhi, my bones will speak from the grave, and people will throng here." His message is being experienced till today. Shirdi is a convenient place to visit throughout the year, during all seasons. Baba's Shirdi is one place where even today all his devotees come with empty hands, but filled with Hope, and go back "Blessed with Contentment with an Everlasting Smile on their faces".
+
+                  </p>
+                  <img src="2.jpg" alt="2" width="700"> <hr>
+                  <img src="3.jpg" alt="3" width="700"> <hr>
+                  <img src="4.jpg" alt="4" width="700"> <hr>
+                  <img src="5.jpg" alt="5" width="700"> <hr>
+                  <img src="6.jpg" alt="6" width="700"> <hr>
+                  <img src="7.jpg" alt="7" width="700"> 
+                 
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="bd-placeholder-img" width="200" height="250" src="3201353.jpg" alt="">
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="float-right"><a href="#"><button type="button" class="btn btn-danger">Back to Top</button></a></p>
+        <p>© 2020-2021 Sai Sansthan, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

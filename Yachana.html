@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Mahimna Stotra</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="1.jpg" alt="1" width="30"> Shri SaiBaba Sansthan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sansthan Litreature
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Satcharita.html">Sai Mahinma Stotra</a></li>
+                            <li><a class="dropdown-item" href="Aarti.html">Aarti</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Leela.html">Yachana</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shirdi Tourism
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="reach.html">How to reach</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="visit.html">Place to visit</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#LoginModal">Login</button>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#SignUpModal">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Login Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="LoginModalLabel">Login To Sansthan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignUpModalLabel">Get an iCoder Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label"> Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>ॐसाई राम ||</strong>
+        सबका मालिक एक
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <video src="yachana.mp4" controls width="500"></video>
+    <div class="container my-4">
+        <div class="row mb-6">
+            <div class="col-md-12">
+              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">Aarti</strong>
+                  <h3 class="mb-0">Sai Baba Yachana Lyrics</h3>
+                  <div class="mb-1 text-muted">Jan 9</div>
+                  <p class="card-text mb-auto">
+                    रूसो मम प्रियांबिका, मजवरी पिताही रूसो ।  <br>
+                    रूसो मम प्रियांगना, प्रियसुतात्मजाही रूसो ।।  <br>
+                    रूसो भगिनी बंधुही, श्वशुर सासुबाई रूसो ।  <br>
+                    न दत्तगुरू साई मा, मजवरी कधीहीं रूसो ।।१।।  <br>
+                    
+                    पुसो न सुनबाई त्या, मज न भ्रातृजाया पुसो ।  <br>
+                    पुसो न प्रिय सोयरे, प्रिय सगे न ज्ञाती पुसो ।।  <br>
+                    पुसो सुहृद ना सखा, स्वजन नाप्तबंधू पुसो ।  <br>
+                    परीन गुरू साई मा मजवरी,कधीहीं रूसो ।।२।।  <br>
+                    
+                    पुसो न अबला मुले, तरूण वृद्धही ना पुसो ।  <br>
+                    पुसो न गुरूं धाकुटें, मजन थोर साने पुसो ।।  <br>
+                    पुसो नच भलेबुरे, सुजन साधुही ना पुसो ।  <br>
+                    परी न गुरू साई मा, मजवरी कधीहीं रूसो ।।३।।  <br>
+                    
+                    रूसो चतुर तत्ववित्, विबुध प्राज्ञे ज्ञानी रूसो ।  <br>
+                    रूसोहि विदुषी स्त्रिया, कुशल पंडिताही रूसो ।।  <br>
+                    रूसो महिपती यती, भजक तापसीही रूसो ।  <br>
+                    न दत्तगुरू साई मा, मजवरी कधीही रूसो ।।४।।  <br>
+                    
+                    रूसो कवि ऋषी मुनी, अनघ सिद्ध योगी रूसो ।  <br>
+                    रूसो हि गृहदेवता, नि कुलग्रामदेवी रूसो ॥  <br>
+                    रूसो खल पिशाच्चही, मलिन डाकिनींही रूसो ।  <br>
+                    न दत्तगुरू साई मा, मजवरी कधीही रूसो ।।५।।  <br>
+                      <br>
+                    रूसो मृगखग कृमी, अखिल जीवजंतु रूसो ।  <br>
+                    रूसो विटप प्रस्तरा, अचल आपगाब्धी रूसो ।  <br>
+                    रूसो ख पवनाग्नि वार, अवनि पंचतत्वें रूसो ।  <br>
+                    न दत्तगुरू साई मा, मजवरी कधीही रूसो ।।६।।  <br>
+                    
+                    रूसो विमल किन्नरा, अमल यक्षिणीही रूसो ।  <br>
+                    रूसो शशि खगादिही, गगनिं तारकाही रूसो ।।  <br>
+                    रूसो अमरराजही, अदये धर्मराजा रूसो ।  <br>
+                    न दत्तगुरू साइ मा, मजवरी कधीही रूसो ।।७।।  <br>
+                    
+                    रूसो मन सरस्वती, चपलचित्त तेंही रूसो ।  <br>
+                    रूसो वपु दिशाखिला, कठिण काल तोही रूसो ।  <br>
+                    रूसो सकल विश्वही, मयि तु ब्रह्मगोलं रूसो ।  <br>
+                    न दत्तगुरू साइ मा, मजवरी कधीही रूसो ।।८।।  <br>
+                    
+                    विमूढ म्हणूनी हसो, मज न मत्सराही डसो ।  <br>
+                    पदाभिरूचि उल्हासो, जननकर्दमीं ना फसो ।  <br>
+                    न दुर्ग धृतिचा धसो, अशिवभाव मागें खसो ।  <br>
+                    प्रपंचि मन हें रूसो, दृढ विरक्ति चित्तीं ठसो ॥९॥  <br>
+                    
+                    कुणाचिही घृणा नसो, न च स्पृहा कशाची असो ।  <br>
+                    सदैव हृदयीं वसो, मनसि ध्यानिं साई वसो ।  <br>
+                    पदी प्रणय वोरसो, निखिल दृश्य बाबा दिसो ।  <br>
+                    न दत्तगुरू साइ मा, उपरि याचनेला रूसो ॥१०॥
+                  </p>
+                 
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="bd-placeholder-img" width="200" height="250" src="3201353.jpg" alt="">
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="float-right"><a href="#"><button type="button" class="btn btn-danger">Back to Top</button></a></p>
+        <p>© 2020-2021 Sai Sansthan, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

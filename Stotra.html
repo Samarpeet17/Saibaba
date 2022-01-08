@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Mahimna Stotra</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="1.jpg" alt="1" width="30"> Shri SaiBaba Sansthan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sansthan Litreature
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Satcharita.html">Sai Mahinma Stotra</a></li>
+                            <li><a class="dropdown-item" href="Aarti.html">Aarti</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Leela.html">Yachana</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shirdi Tourism
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="reach.html">How to reach</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="visit.html">Place to visit</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#LoginModal">Login</button>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#SignUpModal">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Login Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="LoginModalLabel">Login To Sansthan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignUpModalLabel">Get an Sansthan Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label"> Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>ॐसाई राम ||</strong>
+        सबका मालिक एक
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <video src="Stotra.mp4" controls width="700"></video>
+    <div class="container my-4">
+        <div class="row mb-6">
+            <div class="col-md-12">
+              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">Aarti</strong>
+                  <h3 class="mb-0">Sai Baba Stotra Lyrics</h3>
+                  <div class="mb-1 text-muted">Jan 9</div>
+                  <p class="card-text mb-auto">
+                    सदासत्स्वरूपं चिदानन्दकन्दं
+                    जगत्सम्भवस्धान संहार हेतुं
+                    स्वभक्तेच्छया मानुषं दर्शयन्तं
+                    नमामीश्वरं सद्गुरुं सायिनाथं
+
+                    भवध्वान्त विध्वंस मार्ताण्डमीड्यं
+                    मनोवागतीतं मुनिर् ध्यान गम्यं
+                    जगद्व्यापकं निर्मलं निर्गुणं त्वां
+                    नमामीश्वरं सद्गुरुं सायिनाथं
+
+                    भवाम्भोदि मग्नार्धितानां जनानां
+                    स्वपादाश्रितानां स्वभक्ति प्रियाणां
+                    समुद्दारणार्धं कलौ सम्भवन्तं
+                    नमामीश्वरं सद्गुरुं सायिनाथं
+
+                    सदानिम्ब वृक्षस्यमुलाधि वासात्
+                    सुधास्राविणं तिक्त मप्य प्रियन्तं
+                    तरुं कल्प वृक्षाधिकं साधयन्तं
+                    नमामीश्वरं सद्गुरुं सायिनाथं
+
+                    सदाकल्प वृक्षस्य तस्याधिमूले
+                    भवद्भावबुद्ध्या सपर्यादिसेवां
+                    नृणां कुर्वतां भुक्ति–मुक्ति प्रदन्तं
+                    नमामीश्वरं सद्गुरुं सायिनाथं
+
+                    अनेका शृता तर्क्य लीला विलासै:
+                    समा विष्कृतेशान भास्वत्र्पभावं
+                    अहम्भावहीनं प्रसन्नात्मभावं
+                    नमामीश्वरं सद्गुरुं सायिनाथं
+
+                    सतां विश्रमाराम मेवाभिरामं
+                    सदासज्जनै संस्तुतं सन्नमद्भि:
+                    जनामोददं भक्त भद्र प्रदन्तं
+                    नमामीश्वरं सद्गुरुं सायिनाथं
+
+                    अजन्माद्यमेकं परम्ब्रह्म साक्षात्
+                    स्वयं सम्भवं राममेवावतीर्णं
+                    भवद्दर्शनात्सम्पुनीत: प्रभोहं
+                    नमामीश्वरं सद्गुरुं सायिनाथं
+
+                    श्रीसायिश कृपानिधे खिलनृणां सर्वार्धसिद्दिप्रद
+                    युष्मत्पादरज: प्रभावमतुलं धातापिवक्ताक्षम:
+                    सद्भक्त्याश्शरणं कृताञ्जलिपुट: सम्प्राप्तितोस्मिन् प्रभो
+                    श्रीमत्सायिपरेश पाद कमलान् नान्यच्चरण्यंमम
+
+                    सायिरूपधर राघवोत्तमं
+                    भक्तकाम विबुध द्रुमं प्रभुं
+                    माययोपहत चित्त शुद्धये
+                    चिन्तयाम्यह महर्निशं मुदा
+
+                    शरत्सुधांशं प्रतिमं प्रकाशं
+                    कृपातपत्रं तवसायिनाथ
+                    त्वदीयपादाब्ज समाश्रितानां
+                    स्वच्छाययाताप मपाकरोतु
+
+                    उपासनादैवत सायिनाथ
+                    स्मवैर्म योपासनि नास्तुतस्त्वं
+                    रमेन्मनोमे तवपादयुग्मे
+                    भ्रुङ्गो यदाब्जे मकरन्दलुब्ध:
+
+                    अनेकजन्मार्जित पापसङ्क्षयो
+                    भवेद्भवत्पाद सरोज दर्शनात्
+                    क्षमस्व सर्वानपराध पुञ्जकान्
+                    प्रसीद सायिश सद्गुरो दयानिधे
+
+                    श्रीसायिनाथ चरणामृत पूर्णचित्ता
+                    तत्पाद सेवनरता स्सत तञ्च भक्त्या
+                    संसारजन्य दुरितौघ विनिर्ग तास्ते
+                    कैवल्य धाम परमं समवाप्नुवन्ति
+
+                    स्तोत्रमे तत्पठेद्भक्त्या योन्नरस्तन्मनासदा
+                    सद्गुरो: सायिनाथस्य कृपापात्रं भवेद्भवं
+                  </p>
+                 
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="bd-placeholder-img" width="200" height="250" src="3201353.jpg" alt="">
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="float-right"><a href="#"><button type="button" class="btn btn-danger">Back to Top</button></a></p>
+        <p>© 2020-2021 Sai Sansthan, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
